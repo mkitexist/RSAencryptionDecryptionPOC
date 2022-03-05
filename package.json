@@ -1,0 +1,12 @@
+{
+  "name": "encryption-decryption",
+  "version": "1.0.0",
+  "description": "1)openssl genpkey -algorithm RSA -out private_key.pem -pkeyopt rsa_keygen_bits:2048",
+  "main": "encryptdecrypt.js",
+  "scripts": {
+    "start":"nodemon encryptdecrypt.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
